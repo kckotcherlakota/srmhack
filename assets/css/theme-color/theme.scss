@@ -1,0 +1,100 @@
+﻿
+$theme-color:#ff6b57;// Change here your theme color
+
+/*
+============== background Color====================
+*/
+.dark-bg, .hover-bg:hover, .ui-timeline .tl-item .tl-body .tl-entry .btn-primary, .btn-text, .faq .collape-plus, 
+.container-filter li a.active, .container-filter li a:hover, .container-filter li a, .link-zoom a, .link-zoom a.project_links, 
+.project-info, #related-project .owl-prev:hover, #related-project .owl-next:hover, .sidebar-widget .widget-tag li a:hover, 
+.content-carousel .owl-controls .owl-nav .owl-prev, .content-carousel .owl-controls .owl-nav .owl-next, 
+.image-slider .owl-controls .owl-nav .owl-prev, .image-slider .owl-controls .owl-nav .owl-next, 
+.fullwidth-slider .owl-controls .owl-nav .owl-prev, .fullwidth-slider .owl-controls .owl-nav .owl-next, 
+.nf-carousel-theme .owl-controls .owl-nav .owl-prev, .nf-carousel-theme .owl-controls .owl-nav .owl-next, .blog-date, 
+.pagination-nav ul li.active a, .pagination-nav ul li:hover a, .page-signin .body-inner:before, .b-line, 
+.tparrows.tp-leftarrow:hover, .tparrows.tp-rightarrow:hover, .header-1 .top-bar-section, .icon-lf, .services-block .inner-box .lower-box, 
+.nf-carousel-theme.nf-carousel-arrow .owl-controls .owl-prev:hover, .nf-carousel-theme.nf-carousel-arrow .owl-controls .owl-next:hover, 
+.meta-post, #footer-widgets .widget .widget-title > span::after, .abt-block__slider .owl-dots .owl-dot, 
+.bullet_round:after, .second_righ:after, .faq .collape-plus, .panel-title a i, .box-hover:hover .team-block, 
+.ui-input-group .input-bar:before, .ui-input-group .input-bar:after, .ribbon.blue, .ribbon.blue, .btn-default, .bar, 
+.nf-carousel-theme-top .owl-controls .owl-nav .owl-prev:hover, .nf-carousel-theme-top .owl-controls .owl-nav .owl-next:hover, 
+.cart_btns div .secondary_bg, .bg-color, div .secondary_bg, .top-part__block:before, .top-part__block:after, .feature-box:before, .feature-box:after, .content:before, .content:after, 
+figure.effect-zoe figcaption, .top_post .post_detail, .newsletter-form .input-group-btn .btn, .footer_social ul li a, 
+.container-filter li a:before, .container-filter li a:after, 
+.item-nav .item-prev .prev-btn:hover, .item-nav .item-next .next-btn:hover, 
+.btn-default:hover, .color-switch .owl-controls .owl-page span, .tags li a, a.btn.xplus-btn.pricing.active, 
+.btn.xplus-btn, a.btn.xplus-btn.pricing:hover, .skinonebg, .pricing-btn .get-start, a.btn.xplus-btn.pricing.active:hover, 
+.bg-color3, nav.navbar.bootsnav, nav.navbar.bootsnav, .show-hov, .boda-cols span.icon_bg, .sevice-box .service-text:before, 
+.team_follow ul li a, .section-title_home h2::after, .post_date, .post_title h3:before, .none_show, .main_nav ul ul li, 
+.footer_logo ul li a:hover, .bg_theam, .navigation .sub-nav li a:before,
+.section_heading h2:before,.color_box,
+.discretion_saying figure img,
+.testimonial_slider .owl-controls .owl-dots .owl-dot.active,.color_box:before{
+      background:$theme-color;
+}
+
+@mixin background-opacity($theme-color, $opacity: 0.8) {
+    background: $theme-color; /* The Fallback */
+    background: rgba($theme-color, $opacity);
+}
+figure.effect-zoe p.description, .footer_social ul li a:hover, .team_social, .testimonial .item{
+     @include background-opacity($theme-color, 0.8);
+}
+
+.bullet_round:before, .second_righ:before{
+      box-shadow: 0 0 6px 6px $theme-color;
+}
+.skinoneplancolor{
+  background:darken($theme-color, 10%);
+}
+/*
+============== Text Color====================
+*/
+a:focus, a:hover, .gallery-heading h4 a:hover, .post-meta span > a > i,
+.sidebar-widget ul li a:hover, .lead-point li, .blog-post .fa-tag, .pagination-nav ul li a, .big-font i, .btn-text:hover,
+.color-primary, a.color-primary, .contact .icon-circle, .single-sidebar-widget .special-links li:hover a,
+.single-sidebar-widget .special-links li a.active, .custom-check:before, .main-banner .banner-text h2 span,
+.latest__block-title:hover a, .more_btn__block, .abt-box__content-link-arrow, .abt-box_link-arrow,
+.abt-box__content-link:hover, .abt-box_link:hover, .abt-block_link-arrow, .abt-block_link:hover, 
+.mv-block__vision_link-arrow, .mv-block__mission_link-arrow, .mv-block__vision_link:hover, .mv-block__mission_link:hover, 
+.solution_box i.color_orenge, .single-fact .icon-boxed, .star i, .abt__link-arrow, .abt__link:hover, 
+.ui-input-group>input:focus ~ label, .ui-input-group>textarea:focus ~ labels, .clean_top .content i, 
+.btn-link:focus, .btn-link:hover, .btn-link, .color, .inner-intro .page-breadcrumb span, 
+.item-nav .item-prev .prev-btn, .item-nav .item-next .next-btn, .contact-info .info li .icon, 
+.pricing-2 .price, .pricing-2 .currency-symbol, .price-blue--color, .pricing-btn .get-start.white-btn, .section-title_home h2, 
+.top-info__block li i, .icon_box i, .title_bdr i, #work .categories-filter li a:hover, #work .categories-filter li a.active, .client_definition span, 
+.bor_top a, .footer-latest-news .single-news span, .footer-latest-news .single-news h5 a:hover, 
+.blog .post-content a.blog_tital:hover, 
+.blog .post-content a.read_more:hover,.item_service i,
+.service_box i{
+color:$theme-color;
+}
+
+/*
+============== Border Color====================
+*/
+.ui-timeline .tl-item .tl-body .tl-entry .btn-primary, .btn-text, #related-project .owl-prev:hover, #related-project .owl-next:hover, 
+.widget-tag li a, .pagination-nav ul li a, .client-avtar, .contact .icon-circle, 
+.contact-form input[type="text"]:focus, .contact-form textarea:focus, .single-sidebar-widget .special-links li a:before, 
+.widget-search input[type="text"]:focus, .custom-check, .tparrows.tp-leftarrow:hover, .tparrows.tp-rightarrow:hover, 
+.nf-carousel-theme.nf-carousel-arrow .owl-controls .owl-prev, .nf-carousel-theme.nf-carousel-arrow .owl-controls .owl-next, 
+.nf-carousel-theme.nf-carousel-arrow .owl-controls .owl-prev:hover, .nf-carousel-theme.nf-carousel-arrow .owl-controls .owl-next:hover, 
+.v-line, .container-filter li a, .ribbon:before, .ribbon:after, 
+.nf-carousel-theme-top .owl-controls .owl-nav .owl-prev, .nf-carousel-theme-top .owl-controls .owl-nav .owl-next, 
+.nf-carousel-theme-top .owl-controls .owl-nav .owl-prev:hover, .nf-carousel-theme-top .owl-controls .owl-nav .owl-next:hover, .author_pic img, 
+.item-nav .item-prev .prev-btn, .item-nav .item-next .next-btn, .pricing-2 .pricing_table.active, a.btn.xplus-btn.pricing.active, 
+.pricing-wrap, a.btn.xplus-btn.pricing.active:hover, .sevice-box:hover .service-text, .team_row:hover, .post_date:before, 
+.arrow_theme .owl-prev:hover, .arrow_theme .owl-next:hover, 
+.icon_left_home, .ather_img.active img, .footer_logo ul li a:hover,
+.service_box:hover,.service_box i, .main_nav ul li > ul{
+    border-color:$theme-color;
+}
+.post_date:before{
+  border-bottom-color: transparent;
+}
+.service_box{
+  border-top-color:$theme-color;
+}
+.team-member .inner-box .overlay-box:after, .ui-input-group > input:focus, .rightGrip:before, .leftGrip:before{
+  border-bottom-color:$theme-color;
+}
